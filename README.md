@@ -1,7 +1,7 @@
-# banner-view
+# BannerView
 A rxJava2 + ViewPager banner view for android. It automatically plays images and stops when on touching.
 
-![](https://github.com/thepacific/banner-view/banner-view/live.gif)
+![](https://github.com/thepacific/banner-view/blob/master/banner-view/live.gif)
 
 # Setup
 ```groovy
