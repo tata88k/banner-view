@@ -30,6 +30,10 @@ compile 'com.github.thepacific:banner:0.0.1'
 
 # Java
 ```java
+        bannerView.setImageLoader(ImageLoader loader);
+
+        bannerView.setOnPhotoClickListener(View.OnClickListener listener);
+
         bannerView.addAll(List< Photo > list);
 
         bannerView.remove(Photo photo);
