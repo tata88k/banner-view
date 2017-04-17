@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BannerView">
+        <attr name="show_news_icon" format="boolean" />
+        <attr name="news_mask_color" format="reference" />
+        <attr name="news_icon" format="reference" />
+        <attr name="news_text" format="string" />
+    </declare-styleable>
+</resources>

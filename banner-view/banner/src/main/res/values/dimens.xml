@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mr_banner_indicator">8dp</dimen>
+    <dimen name="mr_banner_news">8dp</dimen>
+    <dimen name="r_banner_indicator">3dp</dimen>
+    <dimen name="f_news">12sp</dimen>
+    <dimen name="w_banner_news_icon">24dp</dimen>
+</resources>

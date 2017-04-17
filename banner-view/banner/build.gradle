@@ -1,0 +1,14 @@
+apply from: "../gradle/bintray_push.gradle"
+apply from: "../gradle/lib_module.gradle"
+
+android.defaultConfig.minSdkVersion 14
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile "io.reactivex.rxjava2:rxjava:$rootProject.ext.rxjava"
+    compile "io.reactivex.rxjava2:rxandroid:$rootProject.ext.rxandroid"
+    compile 'com.romandanylyk:pageindicatorview:0.1.2'
+    compile 'com.github.thepacific:adapter:2.0.2'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+}

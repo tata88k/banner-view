@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="#230c10"
+    tools:layout_height="150dp"
+    tools:parentTag="android.support.constraint.ConstraintLayout">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/mask"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img"
+        tools:background="@color/mask"></View>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="@dimen/w_banner_news_icon"
+        android:layout_height="@dimen/w_banner_news_icon"
+        android:layout_marginLeft="@dimen/mr_banner_indicator"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <com.rd.PageIndicatorView
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/mr_banner_indicator"
+        app:layout_constraintBottom_toTopOf="@+id/img"
+        app:layout_constraintRight_toRightOf="parent"
+        app:piv_animationType="color"
+        app:piv_radius="@dimen/r_banner_indicator"
+        tools:ignore="RtlHardcoded" />
+
+    <com.pacific.banner.MarqueeTextView
+        android:id="@+id/text"
+        style="@style/NewsText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginRight="@dimen/mr_banner_indicator"
+        app:layout_constraintBottom_toBottomOf="@+id/img"
+        app:layout_constraintLeft_toRightOf="@+id/img"
+        app:layout_constraintRight_toRightOf="@+id/indicator"
+        app:layout_constraintTop_toTopOf="@+id/img"
+        tools:ignore="RtlHardcoded" />
+</merge>

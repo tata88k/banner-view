@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BannerView</string>
+    <string name="tip">A banner view implemented by using rxJava2 for android . Enjoy it : https://github.com/thepacific/banner-view</string>
+    <string name="timer">click me</string>
+</resources>
