@@ -1,5 +1,7 @@
 # BannerView
-A rxJava2 + ViewPager banner view for android. Automatically starts plaing images and stops when on touching[ ![Download](https://api.bintray.com/packages/thepacific/maven/banner/images/download.svg) ](https://bintray.com/thepacific/maven/banner/_latestVersion)
+A rxJava2 + ViewPager banner view for android. Automatically plays images and stops when on touching
+
+[ ![Download](https://api.bintray.com/packages/thepacific/maven/banner/images/download.svg) ](https://bintray.com/thepacific/maven/banner/_latestVersion)
 
 ![](https://github.com/thepacific/banner-view/blob/master/banner-view/live.gif)
 
